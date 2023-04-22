@@ -1,0 +1,13 @@
+.background-header {
+    background: linear-gradient(90deg, #151519 14%, #202127 14%);
+
+    a.active {
+        ::ng-deep svg {
+            background-color: #f7b922;
+            color: #fff;
+        }
+        span {
+            color: #f7b922;
+        }
+    }
+}
